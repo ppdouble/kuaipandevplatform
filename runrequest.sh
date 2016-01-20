@@ -1,3 +1,6 @@
+# return "msg":"bad signature" for now
+# can not work
+
 currentutctimestamp=`date -d now +%s`
 randomnumber0=`head -200 /dev/urandom | cksum | cut -c -8`
 randomnumber=`cat /proc/sys/kernel/random/uuid | cut -c 3,6,12,16,23,26,30,34`
