@@ -1,5 +1,6 @@
 # return "msg":"bad signature" for now
 # can not work
+# nick.d.dong(at)gmail.com
 
 currentutctimestamp=`date -d now +%s`
 randomnumber0=`head -200 /dev/urandom | cksum | cut -c -8`
