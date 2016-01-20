@@ -12,9 +12,9 @@ currentutctimestamp = str(time.time()).split('.')[0]
 randomstr = ''.join(random.sample(string.ascii_letters + string.digits, 8))
 
 baseurl="https://openapi.kuaipan.cn/open/requestToken"
-consumerkey="bc3DFCVFddQXJcON"
+consumerkey="bc3DFCVFddQXJcON"  # fake consumerkey
 signature=""
-hmackey="z33pLA2ICWf5paV0&"
+hmackey="z33pLA2ICWf5paV0&"  # fake hmackey
 http_method = "GET"
 equalsign = quote("=")
 andsign = quote("&")
